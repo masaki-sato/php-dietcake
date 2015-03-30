@@ -6,3 +6,8 @@
 <?php foreach($langs as $lang): ?>
     <p><?php echo $lang ?></p>
 <?php endforeach; ?>
+
+<?php foreach($result as $cp_info): ?>
+    <p><?php echo $cp_info->cp->id ?></p>
+    <p><?php echo $cp_info->brand->name ?></p>
+<?php endforeach; ?>
