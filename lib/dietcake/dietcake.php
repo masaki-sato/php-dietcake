@@ -22,10 +22,10 @@ define('LOGS_DIR', TMP_DIR.'logs/');
 define('LIB_DIR', ROOT_DIR.'lib/');
 define('VENDOR_DIR', ROOT_DIR.'vendor/');
 
-require_once DC_CORE_DIR.'exception.php';
-require_once DC_CORE_DIR.'inflector.php';
-require_once DC_CORE_DIR.'param.php';
-require_once DC_CORE_DIR.'model.php';
-require_once DC_CORE_DIR.'view.php';
-require_once DC_CORE_DIR.'controller.php';
-require_once DC_CORE_DIR.'dispatcher.php';
+require_once DC_CORE_DIR . 'exception.php';
+require_once DC_CORE_DIR . 'inflector.php';
+require_once DC_CORE_DIR . 'param.php';
+require_once DC_CORE_DIR . 'model.php';
+require_once DC_CORE_DIR . 'view.php';
+require_once DC_CORE_DIR . 'controller.php';
+require_once DC_CORE_DIR . 'dispatcher.php';
